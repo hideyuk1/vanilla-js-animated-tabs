@@ -10,6 +10,8 @@
 > Animated tabs using only HTML, CSS and Vanilla JS
 
 ### 🏠 [Homepage](https://github.com/hideyuk1/vanilla-js-animated-tabs)
+### ✨ [Demo](https://hideyuk1.github.io/vanilla-js-animated-tabs/)
+
 
 ## Prerequisites
 
