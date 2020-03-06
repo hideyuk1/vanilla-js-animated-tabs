@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .Navigator {
+    display: flex;
+    height: 30px;
+    background-color: lightblue;
+    align-items: center;
+    padding: 0px 20px;
+    box-sizing: border-box;
+  }
+  
+  .Tab + .Tab {
+    margin-left: 10px;
+  }
+  
+  .Tab {
+    cursor: pointer;
+  }
+  
+  .Tab.active {
+    background-color: lightcyan;
+  }
+  
+  .Content {
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  .Slidable {
+    display: flex;
+    transform: translateX(0%);
+    transition: transform 0.3s;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .TabContent {
+    width: 100%;
+    height: 100vh;
+    flex-shrink: 0;
+  }
+  
+  .TabContent:nth-child(1) {
+    background-color: lightgreen;
+  }
+  
+  .TabContent:nth-child(2) {
+    background-color: lightsalmon;
+  }
+  
+  .TabContent.active {
+    /* background-color: lightcoral; */
+  }
+  
