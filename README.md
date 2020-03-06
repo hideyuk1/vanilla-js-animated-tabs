@@ -36,7 +36,7 @@ yarn run start
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/hideyuk1/vanilla-js-animated-tabs/issues). You can also take a look at the [contributing guide](git@github.com:hideyuk1/css-loaders/blob/master/CONTRIBUTING.md).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/hideyuk1/vanilla-js-animated-tabs/issues).
 
 ## Show your support
 
