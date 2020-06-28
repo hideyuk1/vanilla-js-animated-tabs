@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Vanilla JS Animated Tabs Transition</title>
-    <meta charset="UTF-8">
-  <link href="/vanilla-js-animated-tabs/main.css" rel="stylesheet"></head>
 
-  <body>
-    <div id="app">
-      <div class="Navigator">
-        <div class="Tab active">
-          Tab 1
-        </div>
-        <div class="Tab">
-          Tab 2
-        </div>
-        <div class="Tab">
-          Tab 3
-        </div>
+<head>
+  <title>Vanilla JS Animated Tabs Transition</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self';">
+  <link href="/vanilla-js-animated-tabs/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="app">
+    <div class="Navigator">
+      <div class="Tab active">
+        Tab 1
       </div>
-
-      <div class="Content">
-        <div class="Slidable">
-          <div class="TabContent active">Tab 1</div>
-          <div class="TabContent">Tab 2</div>
-          <div class="TabContent">Tab 3</div>
-        </div>
+      <div class="Tab">
+        Tab 2
+      </div>
+      <div class="Tab">
+        Tab 3
       </div>
     </div>
-  <script type="text/javascript" src="/vanilla-js-animated-tabs/main.bundle.js"></script></body>
+
+    <div class="Content">
+      <div class="Slidable">
+        <div class="TabContent active">Tab 1</div>
+        <div class="TabContent">Tab 2</div>
+        <div class="TabContent">Tab 3</div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="/main.bundle.js"></script>
+</body>
+
 </html>
